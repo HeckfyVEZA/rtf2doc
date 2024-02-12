@@ -1,4 +1,3 @@
-# import libraries
 import streamlit as st
 import tkinter as tk
 from tkinter import filedialog
@@ -7,10 +6,9 @@ import re
 import os
 import win32com.client as win32
 from win32com.client import constants
-from io import BytesIO
 import pythoncom
 pythoncom.CoInitialize()
-import pandas as pd
+
 
 # Set up tkinter
 root = tk.Tk()
